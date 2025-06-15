@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeDébut - Apprendre la programmation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f9f8ff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #6d28d9;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #6d28d9;
+      margin-bottom: 15px;
+      font-size: 2em;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .service {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+    .service:hover {
+      transform: translateY(-5px);
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      background-color: #6d28d9;
+      color: white;
+      text-decoration: none;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #4c1d95;
+    }
+    footer {
+      background-color: #6d28d9;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CodeDébut</h1>
+    <p>Commencez votre voyage en programmation, simplement et efficacement.</p>
+  </header>
+
+  <div class="container">
+    <h2>Pourquoi CodeDébut ?</h2>
+    <p>Parce que tout le monde peut apprendre à coder ! Ce site est conçu pour vous aider à démarrer avec les bases : HTML, CSS, et JavaScript. Des explications claires, en français ou en arabe, à votre rythme.</p>
+
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Création de page personnelle</h3>
+        <p>On vous guide pour créer votre première page web (nom, photo, infos) avec HTML et CSS.</p>
+      </div>
+      <div class="service">
+        <h3>Correction de code</h3>
+        <p>Envoyez votre code, on l’analyse, on vous explique les erreurs et comment les corriger.</p>
+      </div>
+      <div class="service">
+        <h3>Vidéos explicatives</h3>
+        <p>Besoin de comprendre un concept ? On vous envoie une vidéo courte et simple, en français ou en dialecte tunisien.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a href="https://wa.me/21622389318" target="_blank">Me contacter sur WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 CodeDébut - Tous droits réservés.
+  </footer>
+
+</body>
+</html>
+
